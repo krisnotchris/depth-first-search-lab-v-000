@@ -6,7 +6,7 @@ const depthFirstSearch = (rootNode, vertices, edges) => {
     rootNode = stack.pop()
     if (rootNode.discovered === null) {
       rootNode.discovered = true
-      
+      forEach(() => {})
     }
   }
   return stack
