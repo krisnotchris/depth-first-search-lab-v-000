@@ -1,4 +1,5 @@
 const depthFirstSearch = (rootNode, vertices, edges) => {
+  // rootNode = {name: '34th&6th', discovered: null}
   
 }
 
