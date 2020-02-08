@@ -1,3 +1,3 @@
-const depthFirstSearch = () => {
+const depthFirstSearch = (node) => {
   
 }
