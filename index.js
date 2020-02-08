@@ -1,6 +1,15 @@
 const depthFirstSearch = (rootNode, vertices, edges) => {
   // rootNode = {name: '34th&6th', discovered: null}
-  
+  let stack = [];
+  stack.push(rootNode);
+  while(stack.length !== 0) {
+    rootNode = stack.pop()
+    if (rootNode.discovered === null) {
+      rootNode.discovered = true
+      
+    }
+  }
+  return stack
 }
 
 const vertex = () => {
